@@ -3,6 +3,6 @@ export const config = {
 };
 
 export function GET() {
-    return "Hello world!"
+    return new Response ("Hello world!")
 }
 
