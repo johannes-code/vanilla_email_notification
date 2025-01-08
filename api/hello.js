@@ -5,7 +5,7 @@ const resend = new Resend(apiKey)
 
 export function GET() {
     resend.emails.send({
-        from: "contact@mypage.no",
+        from: "contact@contact.dev",
         to: "johannes24sfj@gmail.com",
         subject: "Contact wanted",
         html: `
