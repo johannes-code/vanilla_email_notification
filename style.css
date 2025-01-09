@@ -1,0 +1,30 @@
+/* Fonts */
+@font-face {
+  font-family: "WinThreeOne";
+  src: url("fonts/w95fa.woff2") format("woff2"),
+    url("fonts/w95fa.woff") format("woff");
+}
+
+/* Overall */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: "WinThreeOne", sans-serif;
+  background-color: #00adac;
+  font-size: 12px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+.windowmenubar {
+  background-color: white;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  height: 12px;
+  padding: 4px;
+  line-height: 16px;
+  cursor: default;
+}
