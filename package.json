@@ -11,6 +11,6 @@
   "description": "",
   "dependencies": {
     "resend": "^4.0.1",
-    "vercel": "^32.3.0"
+    "vercel": "^39.2.6"
   }
 }
