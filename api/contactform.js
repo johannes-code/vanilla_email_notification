@@ -17,6 +17,7 @@ export async function POST(request) {
             <p>${contactFormData.message} </p>  `
 
     })
+    console.log(request)
     return new Response ("Hello world!")
 }
 
