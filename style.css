@@ -19,6 +19,11 @@ body {
   -webkit-font-smoothing: none;
 }
 
+.formcontainer {
+  height: 300px;
+  width: 300px;
+}
+
 .windowmenubar {
   background-color: white;
   border-bottom: 1px solid black;
