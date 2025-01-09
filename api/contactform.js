@@ -4,7 +4,8 @@ const apiKey = process.env.RESEND_API_KEY
 const resend = new Resend(apiKey)
 
 export async function POST() {
-    console.log(request);
+    const data = await request.json();
+    console.log(data);
     // resend.emails.send({
     //     from: "contact@resend.dev",
     //     to: "johannes24sfj@gmail.com",
