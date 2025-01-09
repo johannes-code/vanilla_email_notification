@@ -14,22 +14,28 @@ body {
   overflow: hidden;
   font-family: "WinThreeOne", sans-serif;
   background-color: #00adac;
-  font-size: 12px;
+  font-size: 16px;
   font-smooth: never;
   -webkit-font-smoothing: none;
 }
 
 .formcontainer {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 360px;
+}
+#contactform {
+  width: 320px;
 }
 
-.windowmenubar {
-  background-color: white;
-  border-bottom: 1px solid black;
-  font-size: 14px;
-  height: 12px;
-  padding: 4px;
-  line-height: 16px;
-  cursor: default;
+#label {
+  width: 200px;
+}
+
+input#email,
+input#name {
+  width: 300px;
+}
+input#message {
+  width: 300px;
+  height: 300px;
 }
